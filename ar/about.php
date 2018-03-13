@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="breadcrumb-text text-center">
-                        <h1>About us</h1>
+                        <h1>نبذة عنا</h1>
                     </div>
                 </div>
             </div>
@@ -30,14 +30,13 @@
                         <ul class="practice-law-box" role="tablist">
                             <!--Start single law box-->
                             <li class="single-law-box active" data-tab-name="Criminal">
-                                <a href="#Criminal" aria-controls="Criminal" role="tab" data-toggle="tab">About us<i
+                                <a href="#Criminal" aria-controls="Criminal" role="tab" data-toggle="tab">نبذة عنا<i
                                             class="fa fa-angle-right"></i></a>
                             </li>
                             <!--End single law box-->
                             <!--Start single law box-->
                             <li class="single-law-box" data-tab-name="Accident">
-                                <a href="#Accident" aria-controls="Accident" role="tab" data-toggle="tab">Construction
-                                    Division<i class="fa fa-angle-right"></i></a>
+                                <a href="#Accident" aria-controls="Accident" role="tab" data-toggle="tab">قطاع اعمال البناء<i class="fa fa-angle-right"></i></a>
                             </li>
                             <!--End single law box-->
                             <!--Start single law box-->

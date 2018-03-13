@@ -86,7 +86,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
 @import url('animate.css');
-@import url('bootstrap.css');
+@import url('bootstrap-rtl.min.css');
 @import url('font-awesome.min.css');
 @import url('normalize.css');
 @import url('slicknav.css');
@@ -97,14 +97,23 @@
 @import url('settings.css');
 @import url('flaticon.css');
 
-
+@font-face {
+  font-family: "JF Flat Regular";
+  src: url('../font/JF-Flat-regular.eot');
+  src: url('../font/JF-Flat-regular.eot?#iefix') format('embedded-opentype'),
+  url('../font/JF-Flat-regular.svg#JF Flat Regular') format('svg'),
+  url('../font/JF-Flat-regular.woff') format('woff'),
+  url('../font/JF-Flat-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /*Start Base CSS */
 html,
 body { height: 100% }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   line-height: 24px;
   color: #878787;
@@ -150,7 +159,7 @@ h4 {
   padding-right:0;
 }
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 ::-webkit-input-placeholder {
    color: #aba9a9;
@@ -211,7 +220,7 @@ p {
 .section-title > span {
   color: #727272;
   display: inline-block;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 18px;
   font-style: italic;
   line-height: 21px;
@@ -220,7 +229,7 @@ p {
 .section-title h1 {
   color: #000000;
   display: block;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 22px;
@@ -241,7 +250,7 @@ p {
 .section-title h2 {
   color: #000000;
   display: block;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 22px;
@@ -289,7 +298,7 @@ p {
   font-size: 45px;
   font-style: italic;
   text-transform: capitalize;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   display: inline-block;
 }
 .breadcrumb-text ul.breadcrumbs {
@@ -306,7 +315,7 @@ p {
   font-size:14px;
   color:#ffffff;
   font-style:italic;
-    font-family: "PT Serif",sans-serif;
+    font-family: 'JF Flat Regular',Sans-Serif;
 }
 .breadcrumb-text ul.breadcrumbs li i {
   color: #fff;
@@ -377,7 +386,7 @@ p {
   color:#ffffff;
   font-size:14px;
   text-transform:uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-weight:700;
 }
 .mainmenu ul.nav li a:hover{
@@ -402,7 +411,7 @@ p {
   font-size: 50px;
   text-transform: uppercase;
   margin:0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-weight:800;
 }
 .slider-text h2 {
@@ -410,7 +419,7 @@ p {
   font-size: 36px;
   margin: 0;
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-weight:700;
 }
 .slider-text ul {
@@ -425,7 +434,7 @@ p {
   float:left;
   padding:0 7px;
   border-right:1px solid #ffffff;
-    font-family: 'Raleway', sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
     font-weight:500;
   color:#ffffff;
   text-transform:uppercase;
@@ -438,14 +447,14 @@ p {
   color: #ffffff;
   font-size: 16px;
   line-height: 30px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-weight:300;
 }
 .slider-text a {
   border: 1px solid #ffffff;
   color: #ffffff;
   display: inline-block;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   font-weight: 700;
   margin-top: 30px;
@@ -535,7 +544,7 @@ css:
   padding-left: 30px;
 }
 .civil-text h4 {
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   color: #282c3d;
   font-size: 16px;
   font-weight: 700;
@@ -551,7 +560,7 @@ css:
   padding-bottom: 40px;
 }
 .our-law h4 {
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   color: #282c3d;
   font-size: 16px;
   font-weight: 700;
@@ -598,7 +607,7 @@ css:
   padding-left: 13px;
 }
 .single-featured-text p {
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .single-featured-text h5:after {
   content: '';
@@ -610,7 +619,7 @@ css:
 }
 .single-featured-text h5 {
   color: #3e3e3e;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -664,7 +673,7 @@ css:
   border: medium none;
   border-radius: 5px;
   color: #ffffff;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   font-weight: 700;
   margin-top: 20px;
@@ -787,12 +796,12 @@ css:
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'JF Flat Regular',Sans-Serif; 
   transition: all .5s ease;
 }
 .attorney-name p {
   color: #3b3946;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 11px;
   margin: 0;
   text-transform: uppercase;
@@ -819,14 +828,14 @@ css:
 }
 .lawyer-count h1 {
   color: #4b3854;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 65px;
   font-weight: 700;
   padding-left: 22px;
   padding-top: 11px;
 }
 .lawyer-text p {
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   color: #a48430;
   font-weight: 600;
   line-height: 20px;
@@ -900,7 +909,7 @@ css:
   background: #a48430 none repeat scroll 0 0;
   color: #ffffff;
   display: inline-block;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 13px;
   font-weight: 700;
   padding: 9px 30px;
@@ -916,7 +925,7 @@ css:
 .we-are-practice h3 {
   background: rgba(0, 0, 0, 0) url("../img/practice-text-bg-border.png") no-repeat scroll right bottom;
   color: #727272;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 22px;
   font-style: italic;
   background-position: 390px 22px;
@@ -955,13 +964,13 @@ css:
   color:#ffffff;
   line-height: 28px;
   padding-top: 15px;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .testimonial-author h4 {
   color: #a48430;
   font-size: 16px;
   font-style: italic;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 #testimonial-carousel:before{
   font-family:FontAwesome;
@@ -1032,7 +1041,7 @@ css:
   color: #fff;
   font-size: 25px;
   font-weight: 700;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .published-date p {
   color: #fff;
@@ -1085,14 +1094,14 @@ css:
   font-style: italic;
   color: #959595;
   padding: 0 15px;
-  font-family: 'PT Serif', sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .latest-news-text .meta li a .fa {
   color: #a48430;
 }
 .latest-news-text h4 {
   color: #282c3d;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -1100,7 +1109,7 @@ css:
   text-transform: uppercase;
 }
 .latest-news-text p {
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 /*End Latest News Area Css*/
 
@@ -1170,7 +1179,7 @@ css:
 }
 .legal-problem-text h2 {
   color: #1f1f1f;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 28px;
   font-style: italic;
   padding-left: 70px;
@@ -1180,7 +1189,7 @@ css:
   background: #FFFFFF none repeat scroll 0 0;
   color: #1F1F1F;
   display: inline-block;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   font-weight: 600;
   margin-top: 1px;
@@ -1226,13 +1235,13 @@ css:
 }
 .widget-text p {
   color: #636363;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .footer-read-more a {
   color: #a48430;
   font-size: 13px;
   font-weight: 600;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .widget-social-links {
   margin-top: 27px;
@@ -1256,7 +1265,7 @@ css:
 .single-footer-widget h3 {
   border-bottom: 1px solid #363637;
   color: #ffffff;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 20px;
   font-style: italic;
   margin-bottom: 27px;
@@ -1267,7 +1276,7 @@ css:
   list-style: outside none none;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .quick-links ul.left-quick-links {
   margin-right: 30px;
@@ -1282,7 +1291,7 @@ css:
 }
 .quick-links ul li a {
   color: #636363;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size:14px;
   transition: all .3s ease;
 }
@@ -1328,7 +1337,7 @@ css:
   color: #434546;
   font-size: 13px;
   text-transform: uppercase;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .created-text p {
   color: #434546;
@@ -1454,7 +1463,7 @@ css:
 
 /*Start best attorney area css */
 #best-attorney-area .our-attorneys .section-title h2 {
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   margin-bottom: 40px;
 }
 #best-attorney-area .our-attorneys .section-title p {
@@ -1480,12 +1489,12 @@ css:
   color: #3b3946;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   margin:0;
 }
 .attorney-name h4 {
   color: #3b3946;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -1496,7 +1505,7 @@ css:
   color: #878787;
   font-size: 14px;
   text-transform: none;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   transition: all .5s ease;
 }
 .attorney-name:hover p.practice {
@@ -1521,7 +1530,7 @@ color: #fff;
   margin: 0;
   padding: 0;
   text-transform: none;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 /*End best attorney area css */
 /*End===========================================================Attorney-v1.html page css=========================*/
@@ -1536,7 +1545,7 @@ color: #fff;
 }
 #we-have-best-attorney-area-title .best-attorney .section-title p{
   color:#777777;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   line-height:26px;
 }
 /*End we have best attorney area title*/
@@ -1585,17 +1594,17 @@ color: #fff;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .attorney-title-name span {
   font-size: 11px;
   color: #ffffff;
   text-transform: uppercase;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .single-attorney-right-info h4 {
   color: #3b3946;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 7px;
@@ -1604,14 +1613,14 @@ color: #fff;
 }
 .single-attorney-right-info p {
   color: #777777;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   line-height:22px;
 }
 .attorney-right-phn-mail p {
   color: #848484;
   margin: 0;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .attorney-right-phn-mail {
   padding-top: 0px;
@@ -1664,7 +1673,7 @@ color: #fff;
 }
 .practice-v1-tabmenu ul.mytab li a {
   color: #ffffff;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 13px;
   margin: 0 18px;
   text-transform: uppercase;
@@ -1695,7 +1704,7 @@ color: #fff;
 }
 .tab-1-right-text p {
   color: #777777;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .tab-1-right-poinet-nm {
   padding-top: 10px;
@@ -1708,7 +1717,7 @@ color: #fff;
 .tab-1-right-poinet-nm ul li {
   background: rgba(0, 0, 0, 0) url("../img/tab-point-li-bg.png") no-repeat scroll 0 8px;
   color: #383838;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 30px;
@@ -1717,7 +1726,7 @@ color: #fff;
 }
 .tab-1-content p {
   color: #777777;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .tab-1-content h3 {
   color: #2b2b2b;
@@ -1734,7 +1743,7 @@ color: #fff;
 .contact-us-box-left h4 {
   color: #ffffff;
   float: left;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 24px;
   font-style: italic;
   margin: 0;
@@ -1750,7 +1759,7 @@ color: #fff;
 .contact-us-box-button a {
   background: #3b3946 none repeat scroll 0 0;
   color: #ffffff;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1769,7 +1778,7 @@ color: #fff;
 }
 .choose-single-item h4 {
   color: #000000;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 19px;
@@ -1778,7 +1787,7 @@ color: #fff;
 }
 .choose-single-item p {
   color: #777777;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .choose-single-item:hover{
   background:#3b3946; 
@@ -1820,7 +1829,7 @@ color: #fff;
 .practice-v2-single-item-title h4 {
   color: #000000;
   display: block;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 17px;
@@ -1845,7 +1854,7 @@ color: #fff;
   background: #a48430 none repeat scroll 0 0;
   color: #ffffff;
   display: inline-block;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 13px;
   font-weight: 600;
   padding: 4px 16px;
@@ -1916,7 +1925,7 @@ color: #fff;
   border-radius: 0;
   color: #8e8d8d;
   display: inline-block;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 20px;
   margin: 0 5px;
   text-decoration: none;
@@ -1949,8 +1958,8 @@ color: #fff;
 .practice-v4-sidebar-title h3 {
 color: #404040;
 display: block;
-font-family: "Raleway",sans-serif;
-font-size: 18px;
+  font-family: 'JF Flat Regular',Sans-Serif;
+  font-size: 18px;
 font-weight: 700;
 line-height: 17px;
 margin-bottom: 0;
@@ -1983,7 +1992,7 @@ width: 44px;
 }
 .doenload-items ul li a {
   color: #323232;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .doenload-items ul li:last-child{
   border-bottom:none;
@@ -2000,14 +2009,14 @@ width: 44px;
   float: left;
   font-size: 24px;
   margin-right: 50px;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-style:italic;
 }
 .right-content-contact-box a {
   background: #a48430 none repeat scroll 0 0;
   color: #1f1f1f;
   display: inline-block;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 13px;
   font-weight: 700;
   padding: 7px 25px;
@@ -2020,7 +2029,7 @@ width: 44px;
 #practice-v5-area {
   line-height: 26px;
   padding: 100px 0;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .practice-right-sidebar {
   margin-right: -30px;
@@ -2071,7 +2080,7 @@ width: 44px;
 }
 .practice-left-middle-text h2 {
   color: #000000;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -2089,7 +2098,7 @@ width: 44px;
   color: #000000;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   margin-bottom:20px;
 }
 
@@ -2124,7 +2133,7 @@ width: 44px;
 }
 .blog-post-date h1 {
   color: #ffffff;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   font-weight: 700;
   padding-top: 12px;
@@ -2141,7 +2150,7 @@ width: 44px;
 }
 .single-bolg-title h3 {
   color: #000000;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 8px;
@@ -2176,10 +2185,10 @@ width: 44px;
   color:#959595;
   font-size:16px;
   font-style:italic;
-    font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .single-blog-text p {
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   line-height: 26px;
   padding-bottom: 9px;
   padding-top: 20px;
@@ -2188,7 +2197,7 @@ width: 44px;
   color: #b5985a;
   font-size: 16px;
   font-style: italic;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   text-transform: capitalize;
 }
 .single-blog-read-more i {
@@ -2244,7 +2253,7 @@ width: 44px;
   outline: medium none;
   padding-left: 20px;
   width: 85%;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   color: #3B3946;
 }
 .searchme form button {
@@ -2278,7 +2287,7 @@ width: 44px;
 }
 .widget-lawyer-name h4 {
   color: #202020;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   font-weight: 300;
   margin-bottom: 6px;
@@ -2290,7 +2299,7 @@ width: 44px;
   color: #b5985a;
   font-size: 16px;
   font-style: italic;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   padding-right:3px;
 }
 .widget-lawyer-name p i {
@@ -2318,7 +2327,7 @@ width: 44px;
   font-size: 14px;
   line-height: 42px;
   position: relative;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .sidebar-widget-category ul li a::before {
   color: #878787;
@@ -2344,8 +2353,8 @@ width: 44px;
   margin-top: -7px;
 }
 .sidebar-text-widget p {
-   font-family: "Open Sans",sans-serif;
-   line-height:26px;
+  font-family: 'JF Flat Regular',Sans-Serif;
+  line-height:26px;
 }
 /*End text  widget */
 
@@ -2369,7 +2378,7 @@ width: 44px;
   border: 1px solid #e2e2e2;
   color: #8d8d8d;
   display: block;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 13px;
   padding: 7px 23px;
   text-transform: uppercase;
@@ -2413,7 +2422,7 @@ width: 44px;
   font-size: 16px;
   padding: 7px 55px;
   margin-bottom:0;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-style:italic;
 }
 /*End meet attorney  widget */
@@ -2547,7 +2556,7 @@ width: 44px;
 }
 .blog-details{
   line-height:26px;
-    font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .blog-details img {
   margin-bottom: 30px;
@@ -2630,7 +2639,7 @@ width: 44px;
 .john-michila-text h4 {
   color: #a48430;
   float: right;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   font-style: italic;
   font-weight: normal;
@@ -2697,7 +2706,7 @@ width: 44px;
 }
 .adminostrator-text h4 {
   color: #ffffff;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -2724,7 +2733,7 @@ width: 44px;
 .comment-title h4 {
   color: #404040;
   display: block;
-  font-family: "Raleway",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 25px;
@@ -2755,7 +2764,7 @@ width: 44px;
 }
 .comment-text h5 {
   color: #1f1f1f;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 12px;
@@ -2767,7 +2776,7 @@ width: 44px;
     padding-left: 5px;
     text-transform: uppercase;
   font-weight:600;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
 }
 .comment-text p {
   color: #959595;
@@ -2778,7 +2787,7 @@ width: 44px;
   color: #a48430;
   font-size: 12px;
   text-transform: uppercase;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-weight:600;
 }
 .single-comment-box {
@@ -2802,7 +2811,7 @@ width: 44px;
   width: 48%;
   font-size: 16px;
   color: #959595;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-style:italic;
 }
 .comment-form form input.email{
@@ -2813,8 +2822,8 @@ width: 44px;
   width: 48%;
   font-size: 16px;
   color: #959595;
-  font-family: "PT Serif",sans-serif;
-  font-style:italic;  
+  font-family: 'JF Flat Regular',Sans-Serif;
+  font-style:italic;
 }
 .comment-form form textarea.comment {
   border: 1px solid #e8e8e8;
@@ -2826,14 +2835,14 @@ width: 44px;
   padding-right: 21px;
   padding-top: 21px;
   width: 100%;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-style:italic;
 }
 .comment-form form button {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border: 1px solid #a48430;
   color: #b5985a;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   font-style: italic;
   margin-top: 36px;
@@ -2850,7 +2859,7 @@ width: 44px;
   background: #1F1F1F none repeat scroll 0 0;
   color: #ffffff;
   display: inline-block;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   font-weight: 600;
   padding: 0px 17px 0px 23px;
@@ -2899,7 +2908,7 @@ width: 44px;
   padding-right: 15px;
 }
 .contact .section-title p {
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   padding-top: 40px;
 }
 .contact-form form label.error {
@@ -2918,7 +2927,7 @@ width: 44px;
   margin-bottom: 20px;
   padding: 0 24px;
   width: 100%;
-  font-family: "PT Serif",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-style:italic;
 }
 .contact-form form textarea {
@@ -2928,9 +2937,9 @@ width: 44px;
   height: 189px;
   margin-bottom: 27px;
   padding: 20px 24px;
-  width: 100%; 
-  font-family: "PT Serif",sans-serif;
-  font-style:italic;  
+  width: 100%;
+  font-family: 'JF Flat Regular',Sans-Serif;
+  font-style:italic;
 }
 .contact-form form button[type="submit"] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -2958,7 +2967,7 @@ width: 44px;
   background: #1F1F1F none repeat scroll 0 0;
   color: #ffffff;
   display: inline-block;
-  font-family: "Open Sans",sans-serif;
+  font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   font-weight: 600;
   padding: 0px 17px 0px 23px;
@@ -3012,7 +3021,7 @@ width: 44px;
 }
 .contact-right-text h3 {
   color: #444444;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -3021,7 +3030,7 @@ width: 44px;
 }
 .contact-right-text h5 {
   color: #7e7e7e;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 15px;
   font-weight: normal;
   margin-bottom: 14px;
@@ -3034,7 +3043,7 @@ width: 44px;
   color: #7e7e7e;
   font-size: 15px;
   margin-bottom: 5px;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
 }
 .contact-right-social-link {
   padding-bottom: 40px;
@@ -3111,7 +3120,7 @@ width: 44px;
 }
 .single-attorney-name h3 {
   color: #000000;
-  font-family: "Raleway",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -3122,7 +3131,7 @@ width: 44px;
   font-size: 16px;
   font-style: italic;
   font-weight: normal;
-  font-family: "PT Serif",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
 }
 .single-attorney-info {
   border-bottom: 1px solid #dddddd;
@@ -3136,7 +3145,7 @@ width: 44px;
 }
 .single-attorney-info ul li {
   color: #848484;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   padding-bottom: 10px;
   padding-left: 35px;
@@ -3193,7 +3202,7 @@ width: 44px;
 }
 .single-attorney-law-list ul li {
   color: #777777;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   line-height: 35px;
 }
 a.appintment-button {
@@ -3201,7 +3210,7 @@ a.appintment-button {
   bottom: -46px;
   color: #ffffff;
   display: block;
-  font-family: "PT Serif",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 21px;
   font-style: italic;
   left:100px;
@@ -3218,11 +3227,11 @@ a.appintment-button {
 }
 .single-attorney-bottom-text p{
   color: #777777;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
 }
 .single-attorney-bottom-text h3 {
   color: #656565;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 18px;
   font-style: italic;
   font-weight: 700;
@@ -3231,7 +3240,7 @@ a.appintment-button {
 }
 .single-attorney-bottom-text p.bottom-text {
   font-style: italic;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
 }
 
 
@@ -3252,14 +3261,14 @@ a.appintment-button {
   color: #a48430;
   font-size: 35px;
   font-style:italic;
-  font-family: "PT Serif",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
 }
 .education-list-rught {
   overflow: hidden;
 }
 .education-list-rught h4 {
   color: #000000;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -3267,7 +3276,7 @@ a.appintment-button {
 }
 .education-list-rught p {
   color: #777777;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
 }
 
 
@@ -3284,7 +3293,7 @@ a.appintment-button {
 }
 .progress-label h4 {
   color: #474747;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 13px;
   font-weight: 600;
   margin: 0 0 16px;
@@ -3318,7 +3327,7 @@ span.progress-bar-tooltip {
   top: -14px;
   width: 37px;
   font-weight: 500;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
 }
 /*End skill area css*/
 
@@ -3339,7 +3348,7 @@ span.progress-bar-tooltip {
   width: 100%;
   font-style: italic;
   font-size:16px;
-  font-family: "PT Serif",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
 }
 .leave-comment-form textarea {
   border: 1px solid #e8e8e8;
@@ -3349,7 +3358,7 @@ span.progress-bar-tooltip {
   padding: 20px;
   width: 100%;
   font-size: 16px;
-  font-family: "PT Serif",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   margin-bottom:27px;
 }
 .leave-comment-form button[type="submit"] {
@@ -3357,7 +3366,7 @@ span.progress-bar-tooltip {
   border: 1px solid #959595;
   color: #2a2a2a;
   display: block;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   font-weight: 700;
   padding: 6px 28px 7px;
@@ -3371,7 +3380,7 @@ span.progress-bar-tooltip {
   border: 1px solid #959595;
   color: #2a2a2a;
   display: block;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 16px;
   font-weight: 700;
   padding: 6px 25px 7px 25px;
@@ -3379,7 +3388,7 @@ span.progress-bar-tooltip {
   background: #1F1F1F none repeat scroll 0 0;
   color: #ffffff;
   display: inline-block;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   font-weight: 600;
   padding: 0px 17px 0px 23px;
@@ -3392,7 +3401,7 @@ span.progress-bar-tooltip {
   background: #1F1F1F none repeat scroll 0 0;
   color: #ffffff;
   display: inline-block;
-  font-family: "Open Sans",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   font-weight: 600;
   padding: 0px 17px 0px 23px;
@@ -3611,7 +3620,7 @@ header .search-box button {
   display: block;
   text-align: left;
   padding: 5px 35px 0;
-  font-family: 'Open Sans';
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
@@ -3696,7 +3705,7 @@ header .search-box button {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
-  font-family: 'Open Sans';
+font-family: 'JF Flat Regular',Sans-Serif;
   border-bottom: 1px solid #2A2A2A;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
@@ -3744,7 +3753,7 @@ header .search-box button {
   color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-weight: 700;
   display: inline-block;
   padding: 0 17px;
@@ -3795,7 +3804,7 @@ header .search-box button {
   font-size: 50px;
   text-transform: uppercase;
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-weight: 800;
 }
 #banner .slider-2 .caption-1 h1{
@@ -3806,7 +3815,7 @@ header .search-box button {
   font-size: 36px;
   margin: 0;
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-weight: 700;
 }
 #banner .caption-2.large h1{
@@ -3823,8 +3832,8 @@ header .search-box button {
   float:left;
   padding:0 10px !important;
   border-right:1px solid #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-weight:500;
+font-family: 'JF Flat Regular',Sans-Serif;
+  font-weight:500;
   color:#ffffff;
   text-transform:uppercase;
   font-size:14px;
@@ -3848,7 +3857,7 @@ header .search-box button {
   color: #ffffff;
   font-size: 16px;
   line-height: 30px;
-  font-family: 'Raleway', sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-weight: 300;
 }
 #banner .caption-4.italic p {
@@ -3860,7 +3869,7 @@ header .search-box button {
   border: 1px solid rgba(255,255,255,.3);
   color: #ffffff;
   display: inline-block;
-  font-family: "Raleway",sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 14px;
   font-weight: 700;
   padding: 7px 40px;
@@ -3871,7 +3880,7 @@ header .search-box button {
   width: 100%;
 }
 #banner .caption-bold-heading h1 {
-  font-family: 'PT Serif', sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 65px;
   line-height: 63px;
   color: #BF9E58;
@@ -3879,7 +3888,7 @@ header .search-box button {
   text-transform: uppercase;
 }
 #banner .p-tag p {
-  font-family: 'Open Sans', sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 20px;
   line-height: 26px;
   color: #fff;
@@ -3914,7 +3923,7 @@ header .search-box button {
  font-weight: 800;
 }
 #banner .slider-3 .caption-4 p {
-  font-family: 'Open Sans', sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 20px;
   line-height: 26px;
   color: #fff;
@@ -3978,13 +3987,13 @@ header .search-box button {
   color: #fff;
 }
 .call-to-action-area .text-one h3 .number {
-  font-family: 'Open Sans';
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 28px;
   color: #271313;
   color: #fff;
 }
 .call-to-action-area .text-two h4 {
-  font-family: 'PT Serif', sans-serif;
+font-family: 'JF Flat Regular',Sans-Serif;
   font-size: 22px;
   font-style: italic;
   text-transform: capitalize;

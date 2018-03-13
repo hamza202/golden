@@ -9,13 +9,13 @@
         <nav class="mainmenu  pull-right">
             <div class="nav-holder">
                 <ul>
-                    <li><a href="about.php">About Us</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="activities.php">Activities</a></li>
-                    <li><a href="projects.php">Projects</a></li>
-                    <li><a href="vision.php">Vision 2030</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
-                    <li class="lang"><a href="#"> العربية</a></li>
+                    <li><a href="about.php">نبذة عنا</a></li>
+                    <li><a href="services.php">الخدمات</a></li>
+                    <li><a href="activities.php">النشاطات</a></li>
+                    <li><a href="projects.php">المشاريع</a></li>
+                    <li><a href="vision.php">رؤية 2030</a></li>
+                    <li><a href="contact.php">تواصل معنا</a></li>
+                    <li class="lang"><a href="#"> English</a></li>
 
                 </ul>
             </div>

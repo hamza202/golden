@@ -90,7 +90,7 @@
 <script src="js/jquery.appear.js"></script>
 <script src="js/jquery.countTo.js"></script>
 <script src="js/validate.js"></script>
-<script src="http://maps.google.com/maps/api/js"></script>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyC5z8omSW73jXqqMKk4YfmuyZbtFIJ-0rE&callback=initMap"></script>
 <script src="js/gmap.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>

@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url('../font/JF-Flat-regular.eot');
+    src: url('../font/JF-Flat-regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/JF-Flat-regular.svg#JF Flat Regular') format('svg'),
+    url('../font/JF-Flat-regular.woff') format('woff'),
+    url('../font/JF-Flat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .bg-1{
     background: url('../img/images/bg1.jpg');
     background-size: 100% 100%;
@@ -181,7 +192,7 @@ h2.h2-style{
 .mixit-box-text p {
     color: #fff;
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: 'JF Flat Regular',Sans-Serif;
 }
 .mixit-box-text {
     position: absolute;
@@ -210,7 +221,7 @@ h2.h2-style{
 }
 /*End portfolio section*/
 .lang a{
-    font-family: "Calibri Light"
+    font-family: 'JF Flat Regular',Sans-Serif;
 }
 /* End portfolio page */
 @media only screen and (max-width : 768px) {
@@ -229,4 +240,71 @@ h2.h2-style{
         left: 3%;
     }
 }
-
+body{
+    direction: rtl ;
+}
+.single-law-box{
+    border-right: 7px solid transparent;
+    border-left: 0;
+}
+.single-law-box:hover, .single-law-box.active {
+    border-right-color: #a48430;
+}
+.fa-angle-right:before {
+    content: "\f104";
+}
+.single-law-box a i{
+    float: left;
+}
+.owl-carousel{
+    direction: ltr;
+}
+.single-featured .alignleft{
+    float: right;
+    margin-left: 15px;
+    margin-right: 0;
+}
+.widget-get-intouch ul li{
+    padding-right: 35px;
+    padding-left: 0;
+}
+.widget-get-intouch ul li.phone{
+    background-position: 99% 2px;
+}
+.widget-get-intouch ul li.location{
+    background-position: 99% 6px;
+}
+.widget-get-intouch ul li.envelop{
+    background-position: 100% 6px;
+}
+.quick-links ul.left-quick-links{
+    float: right;
+    margin-right:0;
+    margin-left: 30px;
+}
+.quick-links ul li i.fa-angle-right:before{
+    content: "\f104";
+}
+.quick-links ul li i{
+    padding-right: 0;
+    padding-left: 12px;
+}
+.widget-social-links a i.mysocial_style{
+    margin: 0 0px 0px 9px;
+    padding-left:0 ;
+    text-align: center;
+}
+.contact-form form button[type="submit"] .fa{
+    border-right: 1px solid #424242;
+    padding-right: 15px;
+    margin-right: 20px;
+    border-left: 0;
+    padding-left: 0;
+    margin-left: 0;
+}
+.fa-arrow-right:before {
+    content: "\f060";
+}
+.contact-form form button[type="submit"]{
+    padding: 0px 23px 0px 17px;
+}

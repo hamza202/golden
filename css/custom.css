@@ -1,3 +1,16 @@
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url('../font/JF-Flat-regular.eot');
+    src: url('../font/JF-Flat-regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/JF-Flat-regular.svg#JF Flat Regular') format('svg'),
+    url('../font/JF-Flat-regular.woff') format('woff'),
+    url('../font/JF-Flat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.lang a{
+    font-family: 'JF Flat Regular',Sans-Serif !important;
+}
 .bg-1{
     background: url('../img/images/bg1.jpg');
     background-size: 100% 100%;
