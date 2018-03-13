@@ -1,0 +1,232 @@
+.bg-1{
+    background: url('../img/images/bg1.jpg');
+    background-size: 100% 100%;
+}
+body.bg-1{
+    position: relative;
+    overflow-x: hidden;
+}
+img.pos-a1, img.pos-a2{
+    width:300px;
+}
+.home-logo{
+    position: absolute;
+    top:17%;
+    left:15%;
+    text-align: right;
+}
+img.pos-a2{
+    margin-left:75px;
+    margin-bottom:5px;
+}
+.home-logo a{
+    color: #a5842e;
+    font-size: 20px;
+    font-weight: 900;
+    display: block;
+}
+header .logo img{
+    max-width:50px;
+}
+header.stricky-fixed .logo img{
+    max-height:50px;
+}
+.single-law-box{
+    padding:0;
+}
+.single-law-box a{
+    padding: 20px 20px;
+    display: block;
+}
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-dot {
+    font-family: 'fontAwesome';
+
+}
+.owl-carousel .owl-nav .owl-prev:before{
+content: "\f053";
+
+}
+.owl-carousel .owl-nav .owl-next:after{
+content: "\f054";
+
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: #a4832d;
+}
+h2.h2-style{
+    color:#a4832d;
+}
+.single-featured{
+    border:0
+}
+.single-featured {
+    border: 0;
+    min-height: 200px;
+}
+.single-featured-icon img{
+    width:40px;
+}
+.footer-logo img{
+    max-width:96px;
+}
+.contact-right-img img{
+    max-height: 100px;
+}
+.contact-right-img{
+    padding-top: 30px;
+}
+.contact-right{
+    padding:0 15px;
+}
+.gmnoprint img{
+    max-height: 30px !important;
+}
+.Vision-img{
+    max-width: 300px;
+
+}
+.Vision-content{
+    padding: 20px 0;
+}
+/* start portfolio page */
+/*start portfolio section*/
+.portfolio ul {
+    margin-bottom: 30px;
+}
+.portfolio .filt ul li {
+    padding: 7px 15px;
+    border: 1px solid #ccc;
+    margin: 4px;
+    color: #888;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.filter.active {
+    color: #333 !important;
+    box-shadow: 0 1px 10px -3px #000;
+}
+.portfolio .col-sm-3 {
+    padding: 0;
+}
+.portfolio .col-sm-3 img {
+    height: 210px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+#container .mix {
+    display: none;
+}
+
+.portfolio .port-overly::before {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.portfolio .port-style:hover .port-overly::before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.mixit-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    right: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+}
+.portfolio .mixit-icon ul {
+    margin: 0;
+}
+.portfolio .port-style:hover .mixit-icon {
+    top: 20%;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+.mixit-icon i {
+    width: 55px;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.15);
+    font-size: 18px;
+    color: #fff;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.mixit-icon i:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.mixit-icon a {
+    text-decoration: none;
+    border: none;
+}
+.mixit-box-text p {
+    color: #fff;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.mixit-box-text {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.mixit-box-text {
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 87%;
+    margin: auto;
+    line-height: 27px;
+    font-size: 17px;
+    padding-bottom: 2px;
+}
+.portfolio .port-style:hover .mixit-box-text {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.portfolio{
+    padding: 70px 0;
+}
+/*End portfolio section*/
+.lang a{
+    font-family: "Calibri Light"
+}
+/* End portfolio page */
+@media only screen and (max-width : 768px) {
+    .bg-1{
+        background-size: 120% 120%;
+    }
+}
+@media only screen and (max-width : 480px) {
+    .bg-1{
+        background-size: 120% 120%;
+    }
+    img.pos-a1, img.pos-a2{
+        width: 192px;
+    }
+    .home-logo{
+        left: 3%;
+    }
+}
+
