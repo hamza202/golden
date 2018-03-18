@@ -76,7 +76,7 @@
                 </div>
             </div>
             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 tab-content">
-                <div class="practice-left-content tab-pane fade in active" id="Criminal">
+                <div class="practice-left-content tab-pane fade in active bg-logo" id="Criminal">
                     <!--                    <div class="fix practice-left-top-img">-->
                     <!--                        <div class="fix practice-left-top-left-img">-->
                     <!--                            <img src="img/practice-top-1.jpg" alt="">-->
@@ -111,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="practice-left-content tab-pane fade" id="employment">
+                <div class="practice-left-content tab-pane fade bg-logo" id="employment">
                     <div class="fix practice-left-middle-text">
                         <h2>Safety</h2>
                         <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -124,7 +124,7 @@
                             dolorem eum fugiat quo voluptas nulla pariatur</p>
                     </div>
                 </div>
-                <div class="practice-left-content tab-pane fade" id="family">
+                <div class="practice-left-content tab-pane fade bg-logo" id="family">
                     <div class="fix practice-left-middle-text">
                         <h2>Quality</h2>
                         <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -137,7 +137,7 @@
                             dolorem eum fugiat quo voluptas nulla pariatur</p>
                     </div>
                 </div>
-                <div class="practice-left-content tab-pane fade" id="business">
+                <div class="practice-left-content tab-pane fade bg-logo" id="business">
                     <div class="fix practice-left-middle-text">
                         <h2>Punctuality</h2>
                         <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -155,17 +155,69 @@
                     <h2>Partners</h2>
                     </div>
                     <div class="owl-carousel owl-theme">
-                        <div class="item"><img src="img/images/Visa.jpg"></div>
-                        <div class="item"><img src="img/images/Visa.jpg"></div>
-                        <div class="item"><img src="img/images/Visa.jpg"></div>
-                        <div class="item"><img src="img/images/Visa.jpg"></div>
-                        <div class="item"><img src="img/images/Visa.jpg"></div>
-                        <div class="item"><img src="img/images/Visa.jpg"></div>
-                        <div class="item"><img src="img/images/Visa.jpg"></div>
-                        <div class="item"><img src="img/images/Visa.jpg"></div>
-                        <div class="item"><img src="img/images/Visa.jpg"></div>
+                        <div class="item">
+                            <img src="img/images/Visa.jpg">
 
+                            <img src="img/images/Visa.jpg">
 
+                            <img src="img/images/Visa.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+
+                            <img src="img/images/Visa.jpg">
+                        </div>
                     </div>
                 </div>
             </div>
