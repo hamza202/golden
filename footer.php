@@ -8,18 +8,7 @@
                     <div class="footer-logo">
                         <img src="img/images/1.png" alt="">
                     </div>
-                    <div class="widget-text">
-                        <p>
-                            Golden Advanced was founded in 2005 in Al-madinah Al-Munawarh as an establishment, which was
-                            evolved into a Company in 2011.
-                            It has been recently united with Sarh Est. to promote the highest level of possible service.
-                            The following is a summary of our profile
-                        </p>
-                    </div>
 
-                    <div class="footer-read-more">
-                        <a href="#">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
-                    </div>
                     <div class="widget-social-links">
                         <a href="#"><i class="fa fa-facebook mysocial_style"></i></a>
                         <a href="#"><i class="fa fa-twitter mysocial_style"></i></a>
@@ -57,6 +46,7 @@
                             <li class="location">4133 Al Batraji Street, Al-Zahra’a, Unit 13</li>
                             <li class="phone">012-6910002</li>
                             <li class="envelop">info@goldenadvanced.co</li>
+                            <li class="footer-fax"> <i class="fa fa-fax"></i> 012-6190002</li>
                         </ul>
                     </div>
                 </div>
@@ -90,7 +80,5 @@
 <script src="js/jquery.appear.js"></script>
 <script src="js/jquery.countTo.js"></script>
 <script src="js/validate.js"></script>
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyC5z8omSW73jXqqMKk4YfmuyZbtFIJ-0rE&callback=initMap"></script>
-<script src="js/gmap.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>

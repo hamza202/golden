@@ -84,7 +84,7 @@
             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 tab-content">
                 <div class="practice-left-content tab-pane fade in active" id="Criminal">
                     <div class="row">
-                        <div class="col-xs-8">
+                        <div class="col-sm-8">
                             <div class="fix practice-left-middle-text">
                                 <h2 class="h2-style">Project management</h2>
                                 <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -97,14 +97,14 @@
                                     dolorem eum fugiat quo voluptas nulla pariatur</p>
                             </div>
                         </div>
-                        <div class="col-xs-4">
-                            <img src="img/images/img4.png">
+                        <div class="col-sm-4 ">
+                            <img src="img/images/1622338_10203707508232435_7641165671184621480_o.jpg">
                         </div>
                     </div>
                 </div>
                 <div class="practice-left-content tab-pane fade" id="Accident">
                     <div class="row">
-                        <div class="col-xs-8">
+                        <div class="col-sm-8">
                             <div class="fix practice-left-middle-text">
                                 <h2 class="h2-style">Engineering</h2>
                                 <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -118,13 +118,13 @@
                             </div>
                         </div>
                         <div class="col-xs-4">
-                            <img src="img/images/img4.png">
+                            <img src="img/images/10959605_10203589143713396_4221993145525302022_n.jpg">
                         </div>
                     </div>
                 </div>
                 <div class="practice-left-content tab-pane fade" id="Property">
                     <div class="row">
-                        <div class="col-xs-8">
+                        <div class="col-sm-8">
                             <div class="fix practice-left-middle-text">
                                 <h2 class="h2-style">Procurement</h2>
                                 <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -137,14 +137,14 @@
                                     dolorem eum fugiat quo voluptas nulla pariatur</p>
                             </div>
                         </div>
-                        <div class="col-xs-4">
-                            <img src="img/images/img4.png">
+                        <div class="col-sm-4">
+                            <img src="img/images/10995293_10203707507232410_4340722217999021524_o.jpg">
                         </div>
                     </div>
                 </div>
                 <div class="practice-left-content tab-pane fade" id="employment">
                     <div class="row">
-                        <div class="col-xs-8">
+                        <div class="col-sm-8">
                             <div class="fix practice-left-middle-text">
                                 <h2 class="h2-style">Construction</h2>
                                 <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -157,14 +157,14 @@
                                     dolorem eum fugiat quo voluptas nulla pariatur</p>
                             </div>
                         </div>
-                        <div class="col-xs-4">
-                            <img src="img/images/img4.png">
+                        <div class="col-sm-4">
+                            <img src="img/images/11018896_10203707507192409_3868620932327653759_o.jpg">
                         </div>
                     </div>
                 </div>
                 <div class="practice-left-content tab-pane fade" id="Property1">
                     <div class="row">
-                        <div class="col-xs-8">
+                        <div class="col-sm-8">
                             <div class="fix practice-left-middle-text">
                                 <h2 class="h2-style">FF&E</h2>
                                 <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -177,14 +177,14 @@
                                     dolorem eum fugiat quo voluptas nulla pariatur</p>
                             </div>
                         </div>
-                        <div class="col-xs-4">
-                            <img src="img/images/img4.png">
+                        <div class="col-sm-4">
+                            <img src="img/images/11113136_10204161651985745_2702738911475771622_n.jpg">
                         </div>
                     </div>
                 </div>
                 <div class="practice-left-content tab-pane fade" id="family">
                     <div class="row">
-                        <div class="col-xs-8">
+                        <div class="col-sm-8">
                             <div class="fix practice-left-middle-text">
                                 <h2 class="h2-style">OS&E</h2>
                                 <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -198,13 +198,13 @@
                             </div>
                         </div>
                         <div class="col-xs-4">
-                            <img src="img/images/img4.png">
+                            <img src="img/images/12593979_10205530284560704_3451491796772802784_o.jpg">
                         </div>
                     </div>
                 </div>
                 <div class="practice-left-content tab-pane fade" id="business">
                     <div class="row">
-                        <div class="col-xs-8">
+                        <div class="col-sm-8">
                             <div class="fix practice-left-middle-text">
                                 <h2 class="h2-style">Fit out</h2>
                                 <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -218,13 +218,13 @@
                             </div>
                         </div>
                         <div class="col-xs-4">
-                            <img src="img/images/img4.png">
+                            <img src="img/images/15338885_10207886699149596_6867727839771678464_n.jpg">
                         </div>
                     </div>
                 </div>
                 <div class="practice-left-content tab-pane fade" id="divorce">
                     <div class="row">
-                        <div class="col-xs-8">
+                        <div class="col-sm-8">
                             <div class="fix practice-left-middle-text">
                                 <h2 class="h2-style">Mechanical contracting</h2>
                                 <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -237,8 +237,8 @@
                                     dolorem eum fugiat quo voluptas nulla pariatur</p>
                             </div>
                         </div>
-                        <div class="col-xs-4">
-                            <img src="img/images/img4.png">
+                        <div class="col-sm-4">
+                            <img src="img/images/es2.jpg">
                         </div>
                     </div>
                 </div>

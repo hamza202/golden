@@ -79,7 +79,7 @@
         
         <!--start map area-->
         <section id="map-area">
-        	<div class="google-map" id="contact-google-map" data-map-lat="24.4864374" data-map-lng="39.7068723" data-icon-path="img/map-marker.png" data-map-title="Golden" data-map-zoom="8"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1108523.5700242107!2d39.71499977858167!3d24.128749470392133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDExJzIwLjciTiAzOcKwMzMnNTYuMSJF!5e0!3m2!1sar!2s!4v1523093365657" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
         </section>
         <!--End map area-->
         

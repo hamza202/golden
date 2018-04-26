@@ -12,7 +12,7 @@
                     <li><a href="about.php">نبذة عنا</a></li>
                     <li><a href="services.php">الخدمات</a></li>
                     <li><a href="activities.php">النشاطات</a></li>
-                    <li><a href="projects.php">المشاريع</a></li>
+                    <li><a href="under-construction.php">المشاريع</a></li>
                     <li><a href="vision.php">رؤية 2030</a></li>
                     <li><a href="contact.php">تواصل معنا</a></li>
                     <li class="lang"><a href="#"> English</a></li>

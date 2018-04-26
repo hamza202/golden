@@ -35,7 +35,7 @@
                </div>
            </div>
            <div class="col-sm-5">
-               <img src="img/tt.jpg" class="img-responsive" alt="">
+               <img src="img/images/jjjj.jpg" class="img-responsive vision-img" alt="">
            </div>
        </div>
    </div>

@@ -1297,15 +1297,16 @@ css:
   padding-left: 90px;
 }
 .widget-get-intouch ul li {
-  margin-bottom: 19px;
+  margin-bottom: 3px;
   padding-left: 35px;
+  padding-top: 3px;
 }
 .widget-get-intouch ul li.location {
-  background: rgba(0, 0, 0, 0) url("../img/location.png") no-repeat scroll 0 7px;
+  background: rgba(0, 0, 0, 0) url("../img/location.png") no-repeat scroll 0 9px;
 }
 .widget-get-intouch ul li.phone {
   background: rgba(0, 0, 0, 0) url("../img/phone.png") no-repeat scroll left top;
-  background-position: 0px 8px;
+  background-position: 0px 6px;
 }
 .widget-get-intouch ul li.envelop {
   background: rgba(0, 0, 0, 0) url("../img/envelop.png") no-repeat scroll left top;
@@ -2075,7 +2076,6 @@ width: 44px;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 15px;
-  margin-top: 57px;
   text-transform: uppercase;
 }
 .practice-left-bottom-text {
@@ -3052,16 +3052,7 @@ width: 44px;
 #map-area {
     position: relative;
 }
-#map-area::before {
-    background: #000000 none repeat scroll 0 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: 0.4;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
+
 
 /*End======================================================contact.html page css=================================*/
 
@@ -3442,31 +3433,31 @@ header.stricky-fixed {
   background: #1F1F1F;
   border-bottom: 0;
 }
-header.stricky-fixed .logo {
-  line-height: 70px;
-}
-header.stricky-fixed .logo img {
-  width: 80%;
-  transition: all .3s ease;
-}
+/*header.stricky-fixed .logo {*/
+  /*line-height: 70px;*/
+/*}*/
+/*header.stricky-fixed .logo img {*/
+  /*width: 80%;*/
+  /*transition: all .3s ease;*/
+/*}*/
 header .logo img {
   transition: all .3s ease;
 }
 
-header.stricky-fixed .mainmenu .nav-holder > ul > li > a {
-  line-height: 70px;
-  /*color: #242424;*/
-}
-header.stricky-fixed .mainmenu .nav-holder > ul > li > a:hover {
-  color: #a48430;
-}
-header.stricky-fixed .mainmenu .nav-holder > ul > li.dropdown > a:after {
- /*color: #242424; */
-}
-header.stricky-fixed .mainmenu .nav-expander ul li button {
-  line-height: 70px;
-  /*color: #242424;*/
-}
+/*header.stricky-fixed .mainmenu .nav-holder > ul > li > a {*/
+  /*line-height: 70px;*/
+  /*!*color: #242424;*!*/
+/*}*/
+/*header.stricky-fixed .mainmenu .nav-holder > ul > li > a:hover {*/
+  /*color: #a48430;*/
+/*}*/
+/*header.stricky-fixed .mainmenu .nav-holder > ul > li.dropdown > a:after {*/
+ /*!*color: #242424; *!*/
+/*}*/
+/*header.stricky-fixed .mainmenu .nav-expander ul li button {*/
+  /*line-height: 70px;*/
+  /*!*color: #242424;*!*/
+/*}*/
 
 header .logo {
   line-height: 100px;
@@ -3564,10 +3555,10 @@ header .search-box button {
 .home-header .mainmenu .nav-holder > ul > li.dropdown.current > a:after {
   color: #a48430;
 }
-.stricky-fixed .mainmenu .nav-holder > ul > li.dropdown:hover > a:after,
-.stricky-fixed .mainmenu .nav-holder > ul > li.dropdown.current > a:after {
-  color: #a48430;
-}
+/*.stricky-fixed .mainmenu .nav-holder > ul > li.dropdown:hover > a:after,*/
+/*.stricky-fixed .mainmenu .nav-holder > ul > li.dropdown.current > a:after {*/
+  /*color: #a48430;*/
+/*}*/
 .mainmenu .nav-holder > ul > li > ul {
   position: absolute;
   top: 200%;
